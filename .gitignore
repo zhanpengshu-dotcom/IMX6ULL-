@@ -1,0 +1,32 @@
+.env
+*.log
+.DS_Store
+.vscode/
+.idea/
+
+# 编译产物
+build/
+Debug/
+Release/
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+
+# STM32CubeIDE / Keil / IAR
+.metadata/
+*.launch
+*.uvguix.*
+*.uvoptx
+*.scvd
+
+# Python 脚本
+__pycache__/
+*.pyc
+.venv/
+
+# 临时文件
+*.bak
+*.tmp
